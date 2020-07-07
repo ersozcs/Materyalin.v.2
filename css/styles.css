@@ -50,7 +50,6 @@ body {
   font-weight: lighter;
 }
 
-
 .fa-bars {
   color: #528dfe;
   font-size: 2rem;
@@ -71,6 +70,9 @@ body {
 /* TELEFON İÇİN */
 
 @media (max-width: 800px) {
+  .navbar {
+    padding: 1rem 0 3rem;
+  }
   .nav-link {
     font-size: 2rem;
   }
@@ -80,20 +82,26 @@ body {
   }
 
   .landing-img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
 
   .heading-big {
-    font-weight: bolder;
-    font-size: 2.5rem;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
     line-height: 1;
   }
 
   .heading-uygun {
     font-size: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
   }
 
   .main-sect {
-      padding: 1% 1%;
-    }
+    padding: 1% 1%;
+  }
 }
