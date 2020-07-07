@@ -85,14 +85,15 @@ body {
 
   .heading-big {
     font-weight: bolder;
-    font-size: 4rem;
+    font-size: 2.5rem;
     line-height: 1;
+  }
+
+  .heading-uygun {
+    font-size: 1rem;
   }
 
   .main-sect {
       padding: 1% 1%;
-      background-color: ##f5f5f5;
-      color: #364f6b;
-      text-align: left;
     }
 }
