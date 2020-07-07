@@ -94,5 +94,6 @@ body {
 
     .navbar-brand {
       font-size: 2rem;
+      color: red;
     }
 }
