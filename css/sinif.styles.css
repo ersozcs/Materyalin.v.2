@@ -1,0 +1,73 @@
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #353A3F;
+  }
+  
+  .main-sect {
+    padding: 2% 7% 0;
+    color: #5d5d5d;
+    text-align: left;
+  }
+
+  .contents {
+    padding-top: 5rem;
+  }
+  
+  /* NAVBAR */
+  
+  .navbar {
+    padding: 0 0 2rem 0;
+  }
+  
+  .navbar-brand {
+    font-family: "Nunito", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0;
+    color: #4E73DF;
+  }
+  
+  
+ .navbar-butonu {
+   margin: auto 0.2rem;
+ }
+
+ .aktif-buton {
+   background-color: #4E73DF;
+   border-color: #4E73DF;
+   color: #f5f5f5;
+ }
+  /* NAVBAR BİTİŞ */
+
+
+ /* SOL MENÜ */
+ .sol-menu {
+   text-align: center;
+   font-family: "Nunito", serif;
+ }
+
+ .nav-item {
+   margin: 0.5rem 0;
+ }
+
+
+  
+  /* TELEFON İÇİN */
+  
+  @media (max-width: 800px) {
+  
+    .navbar-brand {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  
+    .main-sect {
+      padding: 3% 1%;
+    }
+
+    .navbar-header, .bas-link {
+      margin: 7px auto;
+    }  
