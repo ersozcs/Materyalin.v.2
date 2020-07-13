@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    background-color: #F8F9FA;
   }
 
 
@@ -14,7 +13,7 @@ body {
     padding-top: 5rem;
   }
 
-  .container, .kartlar {
+  .container {
     padding: 0;
     margin: 0;
   }
@@ -30,6 +29,8 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
   }
+
+
 
   .navbar-custom .navbar-brand,
   .navbar-custom .navbar-text .navbar-custom .navbar-link{
@@ -57,7 +58,6 @@ body {
   }
 
 .card-body {
-  background-color: #e7e7e7;
   text-align: center;
   font-family: "Nunito Sans";
 }
@@ -69,10 +69,14 @@ body {
 .card-text {
   font-weight: 200;
 }
+
+
+
+.kartlar {padding: 1rem 0;}
   
   /* TELEFON İÇİN */
   
-  @media (max-width: 765px) {
+  @media (max-width: 760px) {
   
     .navbar-brand {
       font-size: 2.5rem;
@@ -92,7 +96,12 @@ body {
       width: 10rem;
     }
 
-
     .icerik {
       padding: 0.2rem 0.3rem 0 6rem ;
     }
+
+    .sayfa-basligi {
+      text-align: center;
+    }
+
+  }
