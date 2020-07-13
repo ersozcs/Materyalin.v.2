@@ -1,9 +1,6 @@
 body {
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: 400;
     text-align: center;
-    background-color: #f5f5f5;
-    color: #353A3F;
+    background-color: #F8F9FA;
   }
 
 
@@ -16,13 +13,17 @@ body {
   .contents {
     padding-top: 5rem;
   }
+
+  .container, .kartlar {
+    padding: 0;
+    margin: 0;
+  }
   
   /* NAVBAR */
   
   .navbar {
     padding: 0;
   }
-
   
   .navbar-brand {
     font-family: "Nunito", sans-serif;
@@ -35,33 +36,11 @@ body {
   color: #4E73DF;
 }
 
-  /* SOLDAKİ & BUTONLAR */
- .navbar-butonu {
-   margin: auto 0.2rem;
- }
-
-.aktif-buton {
-   background-color: #4E73DF;
-   border-color: #4E73DF;
-   color: #f5f5f5;
- } 
+.dropdown-item {
+  font-family: "Nunito Sans", sans-serif;
+}
 
   /* NAVBAR BİTİŞ */
-
-
- /* SOL MENÜ */
- .sol-menu {
-   text-align: center;
-   font-family: "Nunito", serif;
-   font-size: larger;
-   width: 13.6rem;
-   background-color: #f5f5f5;
- }
-
- .nav-item {
-   margin: 0.5rem 0;
-
- }
 
 
 /* İÇERİKLER */
@@ -70,10 +49,30 @@ body {
   padding: 0.2rem 0 0 8rem ;
 }
 
+.sayfa-basligi {
+    font-family: "Nunito Sans";
+    font-weight: lighter;
+    font-size: x-large;
+    padding: 1rem 0 0.5rem 0;
+  }
+
+.card-body {
+  background-color: #e7e7e7;
+  text-align: center;
+  font-family: "Nunito Sans";
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+.card-text {
+  font-weight: 200;
+}
   
   /* TELEFON İÇİN */
   
-  @media (max-width: 768px) {
+  @media (max-width: 765px) {
   
     .navbar-brand {
       font-size: 2.5rem;
